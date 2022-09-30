@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.pie{
+    background: #111111;
+}
+.fot{
+    width: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    font-size: 23px;
+}
+.lik {
+    background: rgba(0, 81, 255, 0.911);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.tel {
+background: rgb(0, 195, 255);
+padding: 8px;
+border-radius: 50px;
+color: white;
+}
+.perro0 {
+    background: rgb(222, 231, 234);
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(20, 19, 19);
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.titulofot {
+    font-size: 18px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: white;
+    padding: 10px 0;
+}
+.a2{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.suscribete{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.suscribete2{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+.suscribete3{
+    padding: 10px 20px;
+    background: white;
+    color: blueviolet;
+    font-size: 18px;
+}
+#derecho{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}

@@ -1,0 +1,251 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;;
+}
+.main-image {
+  position: relative;
+  background: url(imagenes/imagen1.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 66px;
+}
+
+.container h1 span {
+  border: 6px solid white;
+  padding: 6px 14px;
+  display: inline-block;
+}
+
+.cen {
+  margin: 20px;
+  display: block;
+  font-size: 22px;
+}
+
+.button {
+  color: #313131;
+  padding: 10px 24px;
+  background: #f1f1f1;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: .6s;
+}
+
+.button:hover {
+  opacity: .6;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #5684c9;
+  font-family:  sans-serif;
+  padding: 0 20px;
+}
+.card-container{
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+.header{
+  border-right: 1px solid #ddd;
+}
+.descripcion{
+  background: #fbfbfb;
+}
+.header, .descripcion{
+  padding: 20px;
+  text-align: center;
+}
+.header a{
+  position: relative;
+  display: block;
+}
+.header img{
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+  margin: 20px 30px;
+  transition: .2s;
+}
+.header a:hover img{
+  box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+.header h2{
+  color: #f0522a;
+}
+
+.header h4{
+  margin-bottom: 20px;
+}
+.descripcion{
+  position: relative;
+}
+.descripcion p{
+  margin: 20px 30px;
+}
+.descripcion .social{
+  margin-top: 25px;
+}
+.descripcion .social a{
+  display: inline-block;
+  padding: 0 15px;
+  color: #f0522a;
+}
+@media (max-width:640px){
+  .card-container2{
+    display: block;
+    width: 45px;
+  }
+  .descripcion{
+    padding: 20px 20px 5px 20px;
+    border: none;
+  }
+  .descripcion{
+   padding: 5px 20px 20px 20px;
+   background: transparent;
+  }
+  .header h4{
+    margin: 0;
+  }
+}
+.social-bar {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+.icon-facebook2 {
+  background: #2E406E;
+}
+
+.icon-twitter {
+  background: #339dc5;
+}
+
+.icon-youtube {
+  background: #E83028;
+}
+
+.icon-instagram {
+  background: #3F60A5;
+}
+
+.icon-whatsapp {
+  background: green;
+}
+
+.icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba (0, 0, 0, 0.42);
+}
+.pie-pagina{
+  width: 100%;
+  background-color: #242121;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: rgb(217, 82, 82);
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+color: aqua;
+}
+.pie-pagina .grupo-2{
+  background-color: #242121;
+  padding: 15px 10px;
+  text-align: center;
+  color: rgb(139, 134, 134);
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px){
+  .pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}

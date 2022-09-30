@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: none;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+article.card{
+    max-width: 350px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 0 12px #d7d7d7;
+}
+.header-card img{
+    border-radius: 8px 8px 0 0;
+    max-height: 200px;
+    height: 200px;
+    width: 100%;
+}
+.categoria-card{
+    margin-top: 1rem;
+}
+.categoria-card span{
+    background: #25c4d8;
+    color: #fff;
+    padding: .2rem 5rem;
+    border-radius: 4px;
+}
+.card footer{
+    padding: 0 1rem;
+}
+.perfil-card{
+    display: flex;
+    align-items: center;
+}
+.img-perfil-card{
+    display: flex;
+}
+.perfil-card img{
+    width: 50px;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 50%;
+}
+.text-perfil-card{
+    display: flex;
+    flex-flow: column;
+}
+.text-perfil-card span:nth-child(2)
+{
+    color: #cfcfcf;
+}
+.card-wrap{
+    display: flex;
+    flex-flow: wrap;
+}
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook2 {
+    background: #2E406E;
+}
+
+.icon-twitter {
+    background: #339dc5;
+}
+
+.icon-youtube {
+    background: #E83028;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}
+
+.icon-whatsapp {
+    background: green;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba (0, 0, 0, 0.42);
+}
