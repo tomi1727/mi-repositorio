@@ -28,10 +28,10 @@ nav ul{
 }
 
 nav ul li{
-  color: #fff
   font-size: 18px;
   padding: 7px 13px;
   text-transform: uppercase;
+  color: #fff
 }
 
 nav ul li a{
@@ -40,7 +40,7 @@ nav ul li a{
 }
 
 li a.active, li a:hover{
-  background-color: blue;
+  color: blue;
   transition: .5s;
 }
 
@@ -201,8 +201,8 @@ flex-direction: column;
 }
 @media (max-width: 768px){
   .footer-container{
-    padding: 2rem;
     flex-direction: column;
+    padding: 2rem
   }
   .footer-content-container{
     width: 100%;
